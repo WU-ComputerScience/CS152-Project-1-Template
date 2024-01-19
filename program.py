@@ -13,7 +13,7 @@ if __name__ == '__main__':
         'GGGGAATATGGTTATTAAGTTAAAGAGAAAGAAAGATGTGGGTGATATTAATGAATGAATGAATGAATGAATGAATGAATGTTATGATAGAAGGATAAAAATTAAATAAAATTTTAGTTAATAGAAAAAGAATATATAGAGATCAGATCTATCTATCTATCTTAAGGAGAGGAAGAGATAAAAAAATATAATTAAGGAA' 
     ]
 
-    dna_database = DnaDatabase('data/small.csv')
+    dna_database = DnaDatabase('./data/small.csv')
 
     for sample in samples:
         match = dna_database.find_match(sample)

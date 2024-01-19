@@ -1,4 +1,5 @@
 
+import os
 from dna_database import DnaDatabase
 
 expected_matches = {

@@ -12,8 +12,8 @@ class DnaDatabase:
     '''
     def __init__(self, filename: str) -> None:
 
-        # replace the raise statement below with your code!
-        raise NotImplementedError
+        # replace the pass statement below with your code!
+        pass
 
     def find_match(self, person_dna: str) -> str:
         '''
@@ -30,5 +30,5 @@ class DnaDatabase:
                 
         '''
 
-        # replace the raise statement below with your code!
-        #raise NotImplementedError
+        # replace the statement below with your code!
+        return None
